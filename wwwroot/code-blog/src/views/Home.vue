@@ -1,17 +1,19 @@
 <template>
   <div class="home">
 Home View
+<dictintro></dictintro>
+<chalintro></chalintro>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Dictintro from "@/components/Dictintro.vue"
+import Chalintro from "@/components/Chalintro.vue"
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    Dictintro,
+    Chalintro
   }
 }
 </script>

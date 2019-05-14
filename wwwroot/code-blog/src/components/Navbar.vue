@@ -9,19 +9,19 @@
     <span class="navbar-toggler-icon"></span>
   </button>
     </div>
-  <div class="collapse navbar-collapse" id="navbarText">
+  <div class="collapse navbar-collapse col-4 offset-4" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" @click="$router.push({name:'dictionary'})">
-            <p>Dictionary</p><span class="sr-only">(current)</span></a>
+            <p class="cursor">Dictionary</p></a>
       </li>
       <li class="nav-item">
         <a class="nav-link"  @click="$router.push({name:'challenges'})">
-        <p>Challenges</p></a>
+        <p class="cursor">Challenges</p></a>
       </li>
       <li class="nav-item">
         <a class="nav-link"  @click="$router.push({name:'about'})">
-            <p>About</p></a>
+            <p class="cursor">About</p></a>
       </li>
     </ul>
   </div>
@@ -49,5 +49,8 @@ export default {
     cursor: pointer;
     max-height: 75px;
     max-width: 33vw;
+}
+.cursor{
+  cursor: pointer;
 }
 </style>
