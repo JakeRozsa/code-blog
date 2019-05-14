@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Dictionary from './views/Dictionary.vue'
 import Challenges from './views/Challenges.vue'
+import Guides from './views/Guides.vue'
 
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ export default new Router({
       path: '/challenges',
       name: 'challenges',
       component: Challenges
+    },
+    {
+      path: '/guides',
+      name: 'guides',
+      component: Guides
     }
   ]
 })

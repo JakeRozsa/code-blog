@@ -1,6 +1,6 @@
 <template>
-    <div class="dictionary">
-DICTIONARY VIEW
+    <div class="setup-guides">
+Help others do simple set up of command line info, vscode, c#, vue framework, environment setup, deployment, databases, etc.
 
     </div>
 </template>
@@ -8,7 +8,7 @@ DICTIONARY VIEW
 
 <script>
 export default {
-    name: 'dictionary',
+    name: 'setup-guides',
     data(){
         return {}
     },

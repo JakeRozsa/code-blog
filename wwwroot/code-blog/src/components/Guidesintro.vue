@@ -1,6 +1,8 @@
 <template>
-    <div class="dictionary">
-DICTIONARY VIEW
+    <div class="Guides">
+Intro to Tutorials Here
+<button class="btn btn-warning" @click="$router.push({name:'guides'})">Tutorials</button>
+
 
     </div>
 </template>
@@ -8,7 +10,7 @@ DICTIONARY VIEW
 
 <script>
 export default {
-    name: 'dictionary',
+    name: 'Guides',
     data(){
         return {}
     },

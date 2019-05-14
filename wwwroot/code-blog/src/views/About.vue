@@ -1,5 +1,5 @@
 <template>
-  <div class="component">
+  <div class="about">
 ABOUT VIEW
 
   </div>
@@ -8,7 +8,7 @@ ABOUT VIEW
 
 <script>
 export default {
-  name: 'component',
+  name: 'about',
   data(){
     return {}
   },

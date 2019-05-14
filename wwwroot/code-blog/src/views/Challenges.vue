@@ -1,5 +1,5 @@
 <template>
-    <div class="component">
+    <div class="challenges">
 CHALLENGES VIEW
 
     </div>
@@ -8,7 +8,7 @@ CHALLENGES VIEW
 
 <script>
 export default {
-    name: 'component',
+    name: 'challenges',
     data(){
         return {}
     },

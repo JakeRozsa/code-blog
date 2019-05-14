@@ -20,8 +20,11 @@
         <p class="cursor">Challenges</p></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link"  @click="$router.push({name:'guides'})">
+           <p class="cursor">Tutorials</p></a>
+       <li class="nav-item">
         <a class="nav-link"  @click="$router.push({name:'about'})">
-            <p class="cursor">About</p></a>
+          <p class="cursor">About</p></a>
       </li>
     </ul>
   </div>
