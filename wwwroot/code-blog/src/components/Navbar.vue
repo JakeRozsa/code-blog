@@ -1,6 +1,6 @@
 <template>
     <div class="nav-bar">
-<nav class="navbar navbar-expand-xl navbar-light bg-light">
+<nav class="navbar navbar-expand-xxl navbar-light bg-light">
     <div class="col-3">
   <a class="navbar-brand"  @click="$router.push({name:'home'})"><img class="barlogo" src="@/assets/decodedlogopng.png" alt=""></a>
     </div>
@@ -12,18 +12,18 @@
   <div class="collapse navbar-collapse col-4 offset-4" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" @click="$router.push({name:'dictionary'})">
+        <a class="nav-link" @click="$router.push({name:'dictionary'})" data-toggle="collapse" data-target="#navbarText">
             <p class="cursor">Dictionary</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"  @click="$router.push({name:'challenges'})">
+        <a class="nav-link"  @click="$router.push({name:'challenges'})" data-toggle="collapse" data-target="#navbarText">
         <p class="cursor">Challenges</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"  @click="$router.push({name:'guides'})">
+        <a class="nav-link"  @click="$router.push({name:'guides'})" data-toggle="collapse" data-target="#navbarText">
            <p class="cursor">Tutorials</p></a>
        <li class="nav-item">
-        <a class="nav-link"  @click="$router.push({name:'about'})">
+        <a class="nav-link"  @click="$router.push({name:'about'})" data-toggle="collapse" data-target="#navbarText">
           <p class="cursor">About</p></a>
       </li>
     </ul>

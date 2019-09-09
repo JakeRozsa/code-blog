@@ -8,9 +8,9 @@ Home View
 </template>
 
 <script>
-import Dictintro from "@/components/Dictintro.vue"
-import Chalintro from "@/components/Chalintro.vue"
-import Guides from "@/components/Guidesintro.vue"
+import Dictintro from "@/components/Dictionary/Dictintro.vue"
+import Chalintro from "@/components/Challenges/Chalintro.vue"
+import Guides from "@/components/Guides/Guidesintro.vue"
 export default {
   name: 'home',
   components: {
